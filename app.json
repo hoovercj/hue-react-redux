@@ -1,0 +1,14 @@
+{
+  "name": "React Redux Dashboard for Philips Hue",
+  "description": "A dashboard for controlling Philips Hue lights built with react + redux",
+  "repository": "https://github.com/hoovercj/hue-react-redux",
+  "logo": "http://node-js-sample.herokuapp.com/node.svg",
+  "keywords": ["node", "express", "React", "React.js", "React", "Redux", "JavaScript"],
+  "image": "heroku/nodejs",
+  "env": {
+  	"NODE_ENV": {
+  		"description": "Node environment",
+  		"value": "production"
+  	}
+  }
+}
