@@ -4,7 +4,8 @@ import { setLightStateStart, setLightStateSuccess, setLightStateFailure } from '
 import { connect } from 'react-redux';
 
 function mapStateToProps(globalState, ownProps) {
-  return { light: globalState.lights.lightsList.lights[ownProps.id], lightId: ownProps.id };
+  // return { light: globalState.lights.lightsList.lights[ownProps.id], lightId: ownProps.id };
+  return { light: ownProps.light, id: ownProps.id };
 }
 
 const mapDispatchToProps = (dispatch, ownProps) => {

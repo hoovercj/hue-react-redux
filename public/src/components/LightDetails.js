@@ -1,5 +1,4 @@
 import React, { Component, PropTypes } from 'react';
-import { Link } from 'react-router';
 import { SliderPicker, ChromePicker } from 'react-color';
 
 // IMPORTANT VALUES:

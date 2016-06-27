@@ -5,7 +5,7 @@ class LightsIndex extends Component {
   render() {
     return (
       <div>
-        <LightsList />
+        <LightsList getLights={true} />
       </div>
     );
   }
