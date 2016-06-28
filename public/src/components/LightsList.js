@@ -21,8 +21,9 @@ class LightsList extends Component {
   render() {
     let { lights, loading, error } = this.props.lightsList;
     if (this.props.visibleLights) {
-      let visibleLights = this.props.visibleLights.map((key) => {
-        return lights[key];
+      let visibleLights = {};
+      this.props.visibleLights.map((key) => {
+        visibleLights[key] = lights[key];
       });
       lights = visibleLights;
     }
